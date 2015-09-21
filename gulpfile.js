@@ -51,8 +51,8 @@ var babelOpts = {
   optional: ['runtime'],
   plugins: [babelPluginDEV, babelPluginModules],
   _moduleMap: objectAssign({}, require('fbjs/module-map'), {
-    'React': 'react',
-    'ReactDOM': 'react-dom',
+    'React': 'react-native',
+    'ReactDOM': 'react-native',
     'StaticContainer.react': 'react-static-container'
   })
 };
@@ -61,8 +61,8 @@ var buildDist = function(opts) {
   var webpackOpts = {
     debug: opts.debug,
     externals: {
-      'react': 'React',
-      'react-dom': 'ReactDOM'
+      'react-native': 'React',
+      'react-native': 'ReactDOM'
     },
     module: {
       loaders: [

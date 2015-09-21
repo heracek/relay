@@ -29,8 +29,8 @@
   },
   "dependencies": {
     "babel-runtime": "5.8.20",
-    "fbjs": "^0.2.1",
-    "react-static-container": "^1.0.0-alpha.1"
+    "fbjs": "heracek/fbjs#native-dist",
+    "react-static-container": "heracek/react-static-container#native-dist"
   },
   "peerDependencies": {
     "react": "^0.14.0-rc",
