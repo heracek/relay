@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "babel-runtime": "5.8.24",
-    "fbjs": "heracek/fbjs#rn-0.18-dist",
+    "fbjs": "0.7.0-cninternal",
     "react-static-container": "^1.0.0-alpha.1"
   },
   "peerDependencies": {
